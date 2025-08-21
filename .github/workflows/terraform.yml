@@ -18,7 +18,7 @@ env:  #AWS Credentials
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE }} # S3 bucket for Terraform state
   AWS_REGION: us-east-2 
   EKS_CLUSTER: vprofile-eks
-
+#
 jobs:
   terraform:
     name: "Apply terraform code changes"
